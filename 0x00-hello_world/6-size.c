@@ -3,7 +3,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: prints "size of various types of computer variable"
+ * Description: prints "size of various types of computer variable on"
  *
  * Return: Always 0 (success)
 */

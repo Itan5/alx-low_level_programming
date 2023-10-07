@@ -27,7 +27,7 @@ int main(void)
 		putchar('0' + comdec[0]);
 
 
-		if (comint[0] != 9 || comdec[0] != 8)
+		if (comint[0] != 8 || comdec[0] != 9)
 	{
 		putchar(',');
 		putchar(' ');

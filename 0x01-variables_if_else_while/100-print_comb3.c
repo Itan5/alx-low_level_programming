@@ -11,18 +11,30 @@ int main(void)
 
 	int comint[50];
 
-	comint[0] = 10;
+	int comdec[50];
+
+	comint[0] = 0;
 
 	while
-		(comint[0] <= 99)
+		(comint[0] < 10)
 	{
-		putchar('0' + comint[0] / 10);
-		putchar('0' + comint[0] % 10);
-		comint[0]++;
-		if (comint[0] <= 99)
+		comdec[0] = comint[0] + 1;
+	while
+		(comdec[0] < 10)
+	{
+		putchar('0' + comint[0]);
+
+		putchar('0' + comdec[0]);
+
+
+		if (comint[0] != 9 || comdec[0] != 8)
 	{
 		putchar(',');
+		putchar(' ');
 	}
+	comdec[0]++;
+	}
+	comint[0]++;
 	}
 
 		putchar('\n');

@@ -18,7 +18,7 @@ int main(void)
 	while
 		(pdd[0] < 99)
 	{
-		ppd[0] = 0;
+		ppd[0] = pdd[0] + 1;
 	while
 		(ppd[0] < 100)
 	{

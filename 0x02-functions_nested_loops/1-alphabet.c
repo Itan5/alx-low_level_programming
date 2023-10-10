@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Input point
+ * print_alphabet - Entry point
  *
- *Description: Prints "all alphabets in lower case"
+ * Description: Prints all lowercase alphabets.
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 {

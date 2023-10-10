@@ -20,6 +20,7 @@ int print_last_digit(int num)
 	else if (num < 0)
 	{
 	int k = -1 * d;
+
 	_putchar('0' + k);
 	return (k);
 	}

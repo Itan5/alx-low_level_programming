@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-	char Dp[10] = "_putchar/n"
+	char dp[10] = "_putchar/n";
 
-	int x = 0
+	int x = 0;
 
 	while (x <= 10)
 	{
-	_printchar(Dp[x]);
+	_printchar(dp[10]);
 	x++;
 	}
 

@@ -41,9 +41,9 @@ void times_table(void)
 	_putchar('0' + x);
 	_putchar('0' + y);
 	}
-	m++;
+	t++;
 	}
 	_putchar('\n');
-	t++;
+	m++;
 	}
 }

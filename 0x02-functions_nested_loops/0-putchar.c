@@ -14,7 +14,7 @@ int main(void)
 
 	while (x <= 10)
 	{
-	_putchar(dp[10]);
+	_putchar(dp[x]);
 	x++;
 	}
 

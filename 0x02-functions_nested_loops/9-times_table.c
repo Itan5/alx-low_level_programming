@@ -10,25 +10,32 @@
 void times_table(void)
 {
 	int h;
-
 	int m;
-
 	int tt;
+	int x;
+	int y;
 
 	h = 0;
-
 	while
 	(h <= 9)
 	{
 	m = 0;
-
 	while
-
 	(m <= 9)
 	{
 	tt = h * m;
+	if (tt < 10)
+	{
 	_putchar('0' + tt);
-	if (tt != 81)
+	}
+	else
+	{
+	x = tt / 10;
+	y = tt % 10;
+	_putchar('0' + x);
+	_putchar('0' + y);
+	}
+	if (m < 9)
 	{
 	_putchar(',');
 	_putchar(' ');

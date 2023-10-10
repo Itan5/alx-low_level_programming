@@ -21,13 +21,14 @@ void times_table(void)
 	(h <= 9)
 	{
 	m = 0;
+	tt = h * m;
 
 	while
 	(m <= 9)
 	{
-	tt = h * m;
 	_putchar('0' + tt);
 	_putchar(',');
+	_putchar(' ');
 	_putchar(' ');
 	m++;
 	}

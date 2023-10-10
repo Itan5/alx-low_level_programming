@@ -21,29 +21,29 @@ void times_table(void)
 	(t <= 9)
 	{
 	tt = m * t;
-	if (t > 0)
-	{
-	_putchar(',');
-	_putchar(' ');
-	if  (tt < 10)
-	{
-	_putchar(' ');
-	}
-	}
 	if  (tt < 10)
 	{
 	_putchar('0' + tt);
+	if (t > 0 && tt < 10)
+	{
+	_putchar(',');
+	_putchar(' ');
+	_putchar(' ');
 	}
-	else
+	}
+
+	if (tt > 10)
 	{
 	x = tt / 10;
 	y = tt % 10;
 	_putchar('0' + x);
-	}
 	_putchar('0' + y);
+	_putchar(',');
+	_putchar(' ');
 	t++;
 	}
 	_putchar('\n');
 	m++;
+	}
 	}
 }

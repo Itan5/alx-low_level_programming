@@ -25,16 +25,18 @@ void times_table(void)
 	while
 
 	(m <= 9)
-	tt = h * m
+	tt = h * m;
 	{
 	_putchar('0' + tt);
 	if (tt != 81)
+	{
 	_putchar(',');
 	_putchar(' ');
 	_putchar(' ');
+	}
 	m++;
 	}
 	_putchar('\n');
 	h++;
-	}
+	
 }

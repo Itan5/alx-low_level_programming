@@ -8,7 +8,6 @@
  */
 void print_alphabet(void);
 
-int main(void)
 {
 	char alph = 'a';
 
@@ -16,7 +15,7 @@ int main(void)
 	(alph <= z)
 	{
 	_putchar(alph);
-	alph++
+	alph++;
 	}
 	_putchar('\n');
 

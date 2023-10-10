@@ -13,7 +13,7 @@ int main(void)
 	char alph = 'a';
 
 	while
-	(a <= z)
+	(alph <= z)
 	{
 	_putchar(alph);
 	alph++

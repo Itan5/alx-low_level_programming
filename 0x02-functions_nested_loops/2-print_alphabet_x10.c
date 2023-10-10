@@ -8,6 +8,8 @@
  */
 void print_alphabet_x10(void)
 {
+	int dp = 0
+
 	char alph = 'a';
 
 	for (dp = 0; dp < 10; dp++)

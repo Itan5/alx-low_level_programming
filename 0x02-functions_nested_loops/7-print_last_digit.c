@@ -4,22 +4,22 @@
  *
  *Description: Prints "last digit of a number"
  *
- *@n: contains the number
+ *@num: contains the number
  * Return: Always 0 (success)
  */
-int print_last_digit(int n)
+int print_last_digit(int num)
 {
-	int d = n % 10;
+	int d = num % 10;
 
-	if (n > 0)
+	if (num > 0)
 	{
-	_putchar('%d', d);
+	_putchar('0' + d);
 	return (d);
 	}
 
-	else if (n < 0)
+	else if (num < 0)
 	{
-	_putchar('%d', d);
+	_putchar('0' + d);
 	return (d);
 	}
 

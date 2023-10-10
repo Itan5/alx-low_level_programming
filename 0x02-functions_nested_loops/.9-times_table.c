@@ -21,7 +21,7 @@ void times_table(void)
 	(t <= 9)
 	{
 	tt = m * t;
-	if (t != 9)
+	if (t > 0)
 	{
 	_putchar(',');
 	_putchar(' ');
@@ -39,8 +39,8 @@ void times_table(void)
 	x = tt / 10;
 	y = tt % 10;
 	_putchar('0' + x);
-	_putchar('0' + y);
 	}
+	_putchar('0' + y);
 	t++;
 	}
 	_putchar('\n');

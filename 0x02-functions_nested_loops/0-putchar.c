@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char dp[] = "_putchar/n";
+	char dp[x] = "_putchar/n";
 
 	int x = 0;
 

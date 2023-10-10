@@ -36,11 +36,11 @@ void times_table(void)
 	y = tt % 10;
 	_putchar('0' + x);
 	_putchar('0' + y);
-	}
-	if (m < 9 && tt >= 10)
+	if (m < 9 || tt >= 10)
 	{
 	_putchar(',');
 	_putchar(' ');
+	}
 	}
 	m++;
 	}

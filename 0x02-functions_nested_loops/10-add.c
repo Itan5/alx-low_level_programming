@@ -11,5 +11,5 @@
  */
 int add(int d, int p)
 {
-return (d + P);
+return (d + p);
 }

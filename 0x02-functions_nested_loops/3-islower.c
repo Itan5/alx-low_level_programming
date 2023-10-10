@@ -4,19 +4,16 @@
  *
  *Description: Prints "1 if an alphabet is lower case and 0 if not"
  *
+ *@c: contains all alphabets
  * Return: Always 0 (success)
  */
 
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
-	{
-	_putchar('1');
-	_putchar('\n');
-	}
-	
-	else 
-	{
-	_putchar('0');
-	}
+	return (1);
+
+	else
+	return (0);
+
 }

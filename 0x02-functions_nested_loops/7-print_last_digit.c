@@ -11,6 +11,8 @@ int print_last_digit(int num)
 {
 	int d = num % 10;
 
+	int k;
+
 	if (num > 0)
 	{
 	_putchar('0' + d);
@@ -19,8 +21,9 @@ int print_last_digit(int num)
 
 	else if (num < 0)
 	{
-	_putchar('0' + -d);
-	return (d);
+	int k = -1 * d;
+	_putchar('0' + k);
+	return (k);
 	}
 
 	else

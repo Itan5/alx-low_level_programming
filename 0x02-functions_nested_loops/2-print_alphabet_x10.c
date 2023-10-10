@@ -8,19 +8,21 @@
  */
 void print_alphabet_x10(void)
 {
-	int dp = 0;
+	int dp;
 
-	char alph = 'a';
+	char alph;
 
 	for (dp = 0; dp < 10; dp++)
 	{
+		alph = 'a'
+
 		while
 		(alph <= 'z')
 		{
 		_putchar(alph);
 		alph++;
-
+		}
 		_putchar('\n');
-	}
+
 	}
 }

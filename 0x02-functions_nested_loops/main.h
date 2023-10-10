@@ -2,5 +2,5 @@
 #define MAIN_H
 
 
-void _putchar(char *str);
+char _putchar(char* c);
 #endif

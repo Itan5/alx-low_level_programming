@@ -8,7 +8,7 @@
  */
 void print_alphabet_x10(void)
 {
-	int dp = 0
+	int dp = 0;
 
 	char alph = 'a';
 

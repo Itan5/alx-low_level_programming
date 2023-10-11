@@ -19,7 +19,11 @@ void times_table(void)
 	{
 	tt = h * m;
 
-	if (m > 0)
+	if (m == 0)
+	{
+	_putchar('0' + tt);
+	}
+	else
 	{
 	_putchar(',');
 	_putchar(' ');
@@ -28,14 +32,12 @@ void times_table(void)
 	if (tt < 10)
 	{
 	_putchar(' ');
-	_putchar('0' + tt);
 	}
 	else
 	{
 	_putchar('0' + (tt / 10));
 	_putchar('0' + (tt % 10));
 	}
-	if (h < 9)
 	_putchar('\n');
 	m++;
 	}

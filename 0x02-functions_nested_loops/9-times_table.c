@@ -25,7 +25,7 @@ void times_table(void)
 	{
 	_putchar(',');
 	_putchar(' ');
-	else
+	if (h < 5 && m < 4)
 	{
 	_putchar(' ');
 	}

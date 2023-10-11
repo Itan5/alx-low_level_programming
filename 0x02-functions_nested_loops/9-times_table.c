@@ -18,28 +18,24 @@ void times_table(void)
 	while (m <= 9)
 	{
 	tt = h * m;
-	if (tt < 10)
+	if (m == 0)
 	{
 	_putchar('0' + tt);
-	if (h >= 5 && m >= 4 && m != 9)
+	}
+	if (tt < 10 && m != 0)
 	{
 	_putchar(',');
 	_putchar(' ');
-	if (h < 5 && m < 4)
-	{
 	_putchar(' ');
+	_putchar('0' + tt);
 	}
-	}
-	}
+
 	if (tt >= 10)
 	{
-	_putchar('0' + (tt / 10));
-	_putchar('0' + (tt % 10));
-	if (m != 9)
-	{
 	_putchar(',');
 	_putchar(' ');
-	}
+	_putchar('0' + (tt / 10));
+	_putchar('0' + (tt % 10));
 	}
 	m++;
 	}

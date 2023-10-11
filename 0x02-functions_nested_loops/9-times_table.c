@@ -23,24 +23,22 @@ void times_table(void)
 	(m <= 9)
 	{
 	tt = h * m;
-	if (tt < 10)
+	if (tt < 10 && m > 0)
 	{
 	_putchar('0' + tt);
 	_putchar(',');
 	_putchar(' ');
 	_putchar(' ');
 	}
-	else
+	else if
+	(tt >= 10)
 	{
 	x = tt / 10;
 	y = tt % 10;
 	_putchar('0' + x);
 	_putchar('0' + y);
-	if (m < 9 || tt >= 10)
-	{
 	_putchar(',');
 	_putchar(' ');
-	}
 	}
 	m++;
 	}

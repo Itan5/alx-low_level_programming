@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_to_98 - Entry point of program
@@ -14,9 +15,11 @@ void print_to_98(int n)
 	while
 	(n <= 98)
 	{
-	_putchar('0' + n);
-	_putchar(',');
-	_putchar(' ');
+	printf("%d", n);
+	if (n != 98)
+	{
+	printf(", ");
+	}
 	n++;
 	}
 	_putchar('\n');
@@ -26,9 +29,11 @@ void print_to_98(int n)
 	while
 	(n >= 98)
 	{
-	_putchar('0' + n);
-	_putchar(',');
-	_putchar(' ');
+	printf("%d", n);
+	if (n != 98)
+	{
+	printf(", ");
+	}
 	n--;
 	}
 	_putchar('\n');

@@ -9,13 +9,13 @@
  */
 int main(void)
 {
-	long long int x = 1, y = 2, z;
+	long int x = 1, y = 2, z;
 
-	printf("%lld, %lld, ", x, y);
+	printf("%ld, %ld, ", x, y);
 	for (int d = 3; d <= 50; d++)
 	{
 	z = x + y;
-	printf("%lld", z);
+	printf("%ld", z);
 	if (d < 50)
 	{
 	printf(", ");

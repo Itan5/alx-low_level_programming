@@ -10,9 +10,9 @@
 int main(void)
 {
 	long int x = 1, y = 2, z;
+	int d = 3;
 
 	printf("%ld, %ld, ", x, y);
-	int d = 3;
 
 	while
 	(d <= 50)

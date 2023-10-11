@@ -9,21 +9,19 @@
  */
 int main(void)
 {
-	unsigned long int x = 1, y = 2, z;
-	unsigned long int d = 2;
+	unsigned long x = 0, y = 1;
+	unsigned long z = 0, d = 0;
 
-	while
-	(x < 4000000)
+	while (z <= 4000000)
 	{
-	z = x + y;
-	if (z % 2 == 0)
-	{
-	d += z;
-	}
+	z = x + z;
 	x = y;
 	y = z;
-	x++;
+
+	if ((x % 2) == 0)
+	d += x;
+
 	}
-	printf("%lu\n", d);
-	return (0);
+	printf("%ld\n", d);
+return (0);
 }

@@ -13,7 +13,7 @@ int main(void)
 	while
 	(a <= 100)
 	{
-	if ((a % 15) == 0)
+	if (((a % 5) == 0) && ((a % 3) == 0))
 	{
 	printf("FizzBuzz");
 	}

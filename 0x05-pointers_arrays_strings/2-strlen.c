@@ -4,7 +4,7 @@
 * _strlen - Entry point of program
 * Description: returns the length of a string.
 * @s: The string whose lenght is to be returned
-* return: Always (0) when successfull
+* Return: Always length when (success)
 */
 int _strlen(char *s)
 {
@@ -17,5 +17,5 @@ while
 length++;
 s++;
 }
-    return (length);
+return (length);
 }

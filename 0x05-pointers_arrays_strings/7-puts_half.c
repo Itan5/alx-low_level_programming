@@ -30,7 +30,7 @@ k++;
 }
 else
 {
-k = (dm - 1) / 2;
+k = (dm + 1) / 2;
 while
 (k < dm)
 {

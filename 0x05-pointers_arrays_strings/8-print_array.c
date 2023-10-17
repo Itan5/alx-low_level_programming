@@ -18,8 +18,9 @@ printf("%d, ", a[dp]);
 }
 else
 {
-printf("%d\n", a[dp]);
+printf("%d", a[dp]);
 }
 dp++;
 }
+printf("\n");
 }

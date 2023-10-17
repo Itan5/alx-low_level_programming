@@ -21,10 +21,11 @@ num++;
 }
 dp = 0;
 while
-(dp <= (length - 1))
+(dp <= length)
 {
 dest[dp] = src[dp];
 dp++;
 }
+dest[dp] = '\0';
 return (dest);
 }

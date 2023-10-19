@@ -37,8 +37,10 @@ char *cap_string(char *str)
 			{
 				if (str[dp] == separators[i])
 				{
-					capnxt = 1;
-					break;
+					if (str[dp + 1] >= 'a' && str[dp + 1] <= 'z')
+					{
+					str[dp + 1] = str[dp + 1] - 'a' + 'A';
+					}
 				}
 			i++;
 			}
